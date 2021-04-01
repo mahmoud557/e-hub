@@ -1,0 +1,107 @@
+.holder{
+    width:100%;
+    height: 100%;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+}
+
+.right_aria{
+    height: 100%;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.control_bt{
+    width:40px;
+    height:100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.8s;
+   /* transform: rotate(180deg);*/
+}
+.control_bt img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.left_aria{
+    width:20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.left_aria .mode{
+    width: 40px;
+    height:86%;
+}
+.left_aria .mode img{
+    max-width: 60%;
+    max-height: 60%;
+    cursor: pointer;
+}
+.center_aria{
+    width: 40%;
+    height: 86%;
+    max-width: 550px;
+    background: #f7f7f7;
+    border: 1px solid #0000001a;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+.center_aria .icon_holder{
+    width: 60px;
+    height: 100%;
+    background: #535353;
+    border-radius: 3px 0px 0px 3px;
+    padding: 2px;
+    cursor: pointer;
+
+}
+.center_aria .icon_holder img{
+    max-width: 60%;
+    max-height: 60%;
+    filter: invert(0.9);
+}
+.center_aria .input_holder{
+    flex:auto;
+    background: #8080800d;
+}
+.center_aria .input_holder input{
+    width: 100%;
+    height:100%;
+    background: none;
+    outline: none;
+    border: none;
+    color: #535353;
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+    direction: rtl;
+    
+}
+
+.center_aria .input_holder input{
+    width: 100%;
+    height:100%;
+    background: none;
+    outline: none;
+    border: none;
+    color: #535353;
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+    direction: rtl;
+    font-family: system-ui;
+    
+}

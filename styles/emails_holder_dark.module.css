@@ -1,0 +1,26 @@
+.holder{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* padding: 20px; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* direction: rtl; */
+    box-sizing: border-box;
+    overflow-y: scroll;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.holder::-webkit-scrollbar {
+    width: 6px;
+}
+
+.holder::-webkit-scrollbar-track {
+    background:rgb(56 55 55 / 58%);
+}
+
+.holder::-webkit-scrollbar-thumb {
+    background: #464646;
+}
+

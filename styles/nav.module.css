@@ -1,0 +1,9 @@
+.nav{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.nav_button{
+    width:50px;
+    height:100%;
+}

@@ -1,0 +1,19 @@
+.about{
+    display: flex;
+    flex-direction: row;
+    background: coral;
+    flex:auto
+}
+.foter{
+    height:100px;
+    width:100%;
+    background: rgb(255, 139, 97);
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;     
+}
+.left{
+    width:30%;
+    height: 100%;
+    background:rgb(255, 162, 96)
+}
